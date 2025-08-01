@@ -30,25 +30,25 @@ const AboutSection = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • Immigrants do <strong>not</strong> receive government-appointed attorneys
+                  Immigrants do <strong>not</strong> receive government-appointed attorneys
                 </p>
               </div>
               
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • Without legal help, they're defenseless
+                  Without legal help, they're defenseless
                 </p>
               </div>
               
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • U.S. citizens have been wrongfully detained
+                  U.S. citizens have been wrongfully detained
                 </p>
               </div>
               
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • Children are being separated from their parents and held in inhumane conditions
+                  Children are being separated from their parents and held in inhumane conditions
                 </p>
               </div>
             </div>
