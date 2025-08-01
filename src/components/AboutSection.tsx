@@ -14,8 +14,7 @@ const AboutSection = () => {
             </p>
             
             <p className="leading-relaxed">
-              The Trump administration accelerated a radical mass deportation agenda—discarding due process, 
-              violating constitutional rights, and targeting immigrant communities.
+              Immigration enforcement policies are pushing a radical mass deportation agenda on immigrants.
             </p>
             
             <p className="leading-relaxed font-semibold text-primary">
