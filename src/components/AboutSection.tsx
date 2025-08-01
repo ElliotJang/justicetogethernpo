@@ -14,7 +14,8 @@ const AboutSection = () => {
             </p>
             
             <p className="leading-relaxed">
-              Immigration enforcement policies are pushing a radical mass deportation agenda on immigrants.
+              Immigration enforcement policies are pushing a radical mass deportation agenda on immigrants—discarding due process, 
+              violating constitutional rights, and targeting immigrant communities.
             </p>
             
             <p className="leading-relaxed font-semibold text-primary">
