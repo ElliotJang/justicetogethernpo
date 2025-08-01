@@ -19,25 +19,25 @@ const GetInvolvedSection = () => {
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • Donate to fund legal aid (Coming Soon)
+                  Donate to fund legal aid (Coming Soon)
                 </p>
               </div>
               
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • Join our volunteer legal network (Coming Soon)
+                  Join our volunteer legal network (Coming Soon)
                 </p>
               </div>
               
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • Share our message on social media
+                  Share our message on social media
                 </p>
               </div>
               
               <div className="bg-card rounded-lg p-6 shadow-lg border border-border">
                 <p className="text-foreground font-medium">
-                  • Attend or host fundraisers
+                  Attend or host fundraisers
                 </p>
               </div>
             </div>
