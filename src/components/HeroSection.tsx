@@ -24,16 +24,17 @@ const HeroSection = () => {
           Immigrants deserve legal representation. We're here to educate and support to make that happen.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-3">
-            Donate Now
-          </Button>
-          <Button variant="hero-outline" size="lg" className="text-lg px-8 py-3">
-            Learn More
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center sm:items-start">
+          <div className="flex flex-col items-center">
+            <Button variant="hero" size="lg" className="text-lg px-8 py-3">
+              Donate Now
+            </Button>
+            <p className="mt-2 text-white/70 text-sm">(Coming Soon)</p>
+          </div>
+          <Button asChild variant="hero-outline" size="lg" className="text-lg px-8 py-3">
+            <a href="#about">Learn More</a>
           </Button>
         </div>
-        
-        <p className="mt-4 text-white/70 text-sm">(Coming Soon)</p>
       </div>
     </section>
   );

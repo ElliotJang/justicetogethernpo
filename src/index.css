@@ -115,6 +115,15 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Prevent sticky header from covering anchored sections on both mobile and desktop */
+  section[id] {
+    scroll-margin-top: 5rem; /* ~80px */
+  }
+
   body {
     @apply bg-background text-foreground;
   }

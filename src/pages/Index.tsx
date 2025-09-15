@@ -10,13 +10,16 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-primary focus:text-primary-foreground focus:px-3 focus:py-2 focus:rounded-md">Skip to content</a>
       <Header />
-      <HeroSection />
-      <AboutSection />
-      <FactsSection />
-      <MissionSection />
-      <MembersSection />
-      <GetInvolvedSection />
+      <main id="main">
+        <HeroSection />
+        <AboutSection />
+        <FactsSection />
+        <MissionSection />
+        <MembersSection />
+        <GetInvolvedSection />
+      </main>
       <Footer />
     </div>
   );

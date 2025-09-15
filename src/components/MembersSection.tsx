@@ -1,9 +1,5 @@
 const MembersSection = () => {
-  const executiveBoard = [
-    { name: "Anaya Parikh" },
-    { name: "Aileen Toomey" },
-    { name: "Aarika Tania" }
-  ];
+  // Executive Board TBD
 
   return (
     <section id="members" className="py-20 bg-background">
@@ -34,17 +30,8 @@ const MembersSection = () => {
           {/* Executive Board */}
           <div>
             <h3 className="text-2xl font-bold mb-8 text-center text-foreground">Executive Board</h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              {executiveBoard.map((member, index) => (
-                <div key={index} className="bg-card rounded-lg p-6 shadow-lg border border-border text-center hover:shadow-xl transition-shadow duration-300">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-primary font-bold text-lg">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
-                  </div>
-                  <h4 className="font-semibold text-lg text-foreground">{member.name}</h4>
-                </div>
-              ))}
+            <div className="bg-card rounded-lg p-6 shadow-lg border border-border text-center">
+              <p className="text-muted-foreground">Not yet decided</p>
             </div>
           </div>
         </div>

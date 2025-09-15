@@ -1,9 +1,6 @@
 import { Button } from "@/components/ui/button";
 
 const GetInvolvedSection = () => {
-  const handleContactClick = () => {
-    window.location.href = "mailto:justicetogether2027@gmail.com";
-  };
 
   return (
     <section id="get-involved" className="py-20 bg-gradient-to-b from-background to-secondary">
@@ -51,13 +48,8 @@ const GetInvolvedSection = () => {
                 Donate
                 <span className="ml-2 text-sm">(Coming Soon)</span>
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="text-lg px-8 py-3"
-                onClick={handleContactClick}
-              >
-                Contact Us
+              <Button asChild variant="outline" size="lg" className="text-lg px-8 py-3">
+                <a href="mailto:justicetogether2027@gmail.com?subject=Justice%20Together%20Inquiry">Contact Us</a>
               </Button>
             </div>
           </div>
