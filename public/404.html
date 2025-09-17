@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justice Together - Fighting for Due Process and Human Rights</title>
+    <meta name="description" content="Justice Together is a nonprofit advocacy organization working to ensure immigrants facing deportation have access to legal representation and their constitutional rights are protected." />
+    <meta name="author" content="Justice Together" />
+
+    <meta property="og:title" content="Justice Together - Fighting for Due Process and Human Rights" />
+    <meta property="og:description" content="Justice Together is a nonprofit advocacy organization working to ensure immigrants facing deportation have access to legal representation and their constitutional rights are protected." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/placeholder.svg" />
+    <meta property="og:url" content="https://justicetogethernpo.org" />
+    <meta property="og:site_name" content="Justice Together" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/placeholder.svg" />
+    <meta name="theme-color" content="#0a4aa6" />
+    
+    <script>
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script takes the current url and converts the path and query
+      // string into just a query string, and then redirects the browser
+      // to the new url with only a query string and hash fragment,
+      // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
+      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
+      // Note: this script is designed to be used with a 404.html file
+      // and will only work on GitHub Pages.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
