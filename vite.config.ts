@@ -4,7 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/',
+  // Use relative asset paths so it works on both custom domain and repo URL
+  base: './',
   build: {
     outDir: 'docs',
     emptyOutDir: true,
