@@ -20,9 +20,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">JT</span>
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="JT logo"
+              className="w-7 h-7"
+            />
             <span className="text-xl font-bold text-foreground">Justice Together</span>
           </div>
 
